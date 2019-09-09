@@ -4,20 +4,25 @@ import java.util.Scanner;
 
 public class Enigma {
 	
+	//Enigma machine runs on main method with a static object that tracks current state of the machine.
 	private static Machine enig;
 	
+	//Arguments are file for settings and (optional) file for reading input.
 	public static void main(String[] args) throws FileNotFoundException
 	{
+		//Check for empty argument string
 		if (args == null || args[0] == null)
 		{
 			System.out.println("Please enter a setup file name in arguments.");
 			System.exit(0);
 		}
+		//Check for extra arguments.
 		else if (args.length > 2) {
 			System.out.println("Too many arguments.");
 			System.exit(0);
 		}
 		
+		//Run setup (set up the machine)
 		setUp(args[0]);
 		
 		Scanner scan;
@@ -38,6 +43,7 @@ public class Enigma {
 		System.out.println(endResult);
 	}
 	
+	//Code to encrypt/decrypt
 	private static String cryptify(char[] plainText)
 	{
 		StringBuilder sb = new StringBuilder();
@@ -50,6 +56,7 @@ public class Enigma {
 		return sb.toString();
 	}
 	
+	//Read file for encryption.
 	private static char[] readFile(Scanner kb)
 	{
 		String raw = "";
@@ -61,6 +68,7 @@ public class Enigma {
 		return plainText;
 	}
 	
+	//Read input from user.
 	private static char[] readInput(Scanner kb)
 	{
 		String raw = kb.nextLine();
@@ -69,6 +77,7 @@ public class Enigma {
 		return plainText;
 	}
 	
+	//Set up enigma machine.
 	private static void setUp(String fname) throws FileNotFoundException
 	{
 		File finsert = new File(fname);
@@ -127,7 +136,7 @@ public class Enigma {
 	}
 	
 	
-	
+	//Internal Machine class that holds all information necessary to run.
 	private static class Machine
 	{
 		private Rotor rot1;
