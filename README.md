@@ -20,7 +20,7 @@ Download or clone the project. The class files are included, so compilation is u
     `Hello World`  
     `VIGSXSEWOU`  
 
-### File Manifest
+## File Manifest
 + README.md                     :: this file
 + Enigma_Simulator              :: directory holding project files
   + `Enigma$Machine.class`      :: machine object class
