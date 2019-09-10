@@ -11,22 +11,25 @@ Use this program if:
 * You have an interest in WWII history
 
 ## How To Use
-Download or clone the project. The class files are included, so compilation is unnecessary. Open a shell, or use a java file execution program to run the file titled "Enigma". The simulator requires a command line argument specifying the file from which the program will read instructions. There is a second, optional, command for a file from which to read input. If the command line is blank, the program will fail. 
-  **EXAMPLE EXECUTION:** 
-  `
-  $ java Enigma Settings.txt SampleText.txt
-  $ `
+Download or clone the project. The class files are included, so compilation is unnecessary. Open a shell, or use a java file execution program to run the file titled "Enigma". The simulator requires a command line argument specifying the file from which the program will read instructions. There is a second, optional, command for a file from which to read input. If the command line is blank, the program will fail.  
+    **EXAMPLE EXECUTION (with file input):**   
+    `$ java Enigma Settings.txt SampleText.txt`  
+    `VIGSXSEWOU`   
+    **EXAMPLE EXECUTION (without file input):**   
+    `$ java Enigma Settings.txt`  
+    `Hello World`  
+    `VIGSXSEWOU`  
 
 ### File Manifest
-+ README.md
-+ Enigma_Simulator
-  + `Enigma$Machine.class`
-  + `Enigma$Rotor.class`
-  + `Enigma.class`
-  + Enigma.java
-  + Settings.txt
-  + Settings2.txt
-  + SampleText.txt
++ README.md                     :: this file
++ Enigma_Simulator              :: directory holding project files
+  + `Enigma$Machine.class`      :: machine object class
+  + `Enigma$Rotor.class`        :: rotor object class
+  + `Enigma.class`              :: holds main method and static machine object
+  + Enigma.java                 :: the java program itself
+  + Settings.txt                :: sample settings
+  + Settings2.txt               :: sample settings 2
+  + SampleText.txt              :: contains "Hello World"
 
 ## Licensing (TODO I think later in the project)
 
