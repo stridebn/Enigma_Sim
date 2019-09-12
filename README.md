@@ -15,14 +15,20 @@ Download or clone the project. The class files are included, so compilation is u
     `VIGSXSEWOU`  
 
 ## Frequently Asked Questions
-### What is the enigma?
-The [enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers. 
-### Why use this?
-Use this program if:
-* You are interested in how the enigma functions and want to see it in action
-* You have an interest in cryptography
-* You have an interest in WWII history
-
+#### What is the enigma?
+   The [enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their  communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers. 
+#### Why would I use this?
+   Use this program if:
+   * You are interested in how the enigma functions and want to see it in action
+   * You have an interest in cryptography
+   * You have an interest in WWII history
+#### Can I copy this for academic purposes?
+   Absolutely! This project is licensed to be free to reproduce under the MIT license.
+#### What programming language is this written in?
+   This project is written in entirely in java.
+#### Will I need a java IDE to compile?
+   The class files are provided, so there is no need to compile.
+   
 ## File Manifest
 + README.md                     :: this file
 + Enigma_Simulator              :: directory holding project files
