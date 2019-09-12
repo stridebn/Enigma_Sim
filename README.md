@@ -25,7 +25,7 @@ Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption de
    + To output to a text file, you can specify ` > out.txt` at the end of the execute statement, where out.txt could be any text file name (the statement will output a new file if the named one does not exist).
 
 #### Formatting Settings
-There are two properly formatted settings files included in this program: Settings.txt and Settings2.txt. Include no additional whitespace except when explicitly mentioned below.
+There are two properly formatted settings files included in this program: [Settings.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Settings.txt) and [Settings2.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Settings2.txt). Include no additional whitespace except when explicitly mentioned below.
 + *Line 1*: Specifies the rotors in L-R orientation. INCLUDE DELIMITING SPACES
    + There are 5 possible rotors, 1 - 5. The original enigma used a combination of 3 rotors, with no duplicates.
    + To specify rotor pattern 1, 5, 3 for example, the first line would be `1 5 3`
