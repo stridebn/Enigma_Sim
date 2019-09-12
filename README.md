@@ -34,7 +34,8 @@ Use this program if:
   + Settings2.txt               :: sample settings 2
   + SampleText.txt              :: contains "Hello World"
 
-## Licensing (TODO I think later in the project)
+## Licensing
+This project is licensed under the MIT license. For more detail, read the LICENSE file.
 
 ## How to Collaborate
 If you wish to collaborate, this github repository is the place to do it. Contact <stridebn@appstate.edu> with any questions about specifics.
