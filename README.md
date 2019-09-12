@@ -35,7 +35,7 @@ Use this program if:
   + SampleText.txt              :: contains "Hello World"
 
 ## Licensing
-This project is licensed under the MIT license. For more detail, read the LICENSE file.
+This project is licensed under the MIT license. For more detail, read the [LICENSE](https://github.com/stridebn/Enigma_Sim/blob/master/LICENSE) file.
 
 ## How to Collaborate
 If you wish to collaborate, this github repository is the place to do it. Contact <stridebn@appstate.edu> with any questions about specifics.
