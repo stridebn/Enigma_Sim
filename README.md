@@ -24,6 +24,7 @@ Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption de
 2. Open a terminal session (if an appstate student, use the student2 machine)         
    ![](Images/Session.PNG)
 3. Navigate to the directory Enigma_Simulator
+   ![](Images/Navigate.PNG)
 4. Run the executable (see [below](#executing))
 
 #### Executing
