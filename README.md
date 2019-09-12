@@ -10,11 +10,31 @@ This GitHub repository contains the source code for a Java Enigma Simulator, wri
 Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption device used primarily in World War II. The simulator is built to run with the terminal on a linux machine. It takes the input of a formatted .txt file (see [Formatting Settings.txt](#formatting-settings)) and outputs the encrypted or decrypted string, as given by another input file, or user input in the terminal.
 
 ## How To Use This
-1. 
-    **EXAMPLE EXECUTION (with file input):** 
-    
-    **EXAMPLE EXECUTION (without file input):** 
-    
+#### Installing
+1. Clone or download this [repository](https://github.com/stridebn/Enigma_Sim)
+   * *insert clone.png here*
+2. Open a terminal session (if an appstate student, use the student2 machine)
+3. Navigate to the directory Enigma_Simulator
+4. Run the executable (see [below](#executing))
+
+#### Executing
+1. Use the following command to execute the file `java Enigma Settings.txt`
+   + To set up your own settings file, see [Formatting Settings](#formatting-settings)
+   + To specify an input file, such as the included SampleText.txt, include it as a second argument, `java Enigma Settings.txt SampleText.txt`
+   + The executable accepts any .txt file as a settings file, but it must be properly formatted or the program will fail. If no .txt files are included in the execution statement, the program will fail.
+
+#### Formatting Settings
+There are two properly formatted settings files included in this program: Settings.txt and Settings2.txt
++ *Line 1*: Specifies the rotors in L-R orientation. INCLUDE DELIMITING SPACES
+   + There are 5 possible rotors, 1 - 5. The original enigma used a combination of 3 rotors, with no duplicates.
+   + To specify rotor pattern 1, 5, 3 for example, the first line would be `1 5 3`
++ *Line 2*: Specifies the ring settings of the 3 rotors within the machine. INCLUDE DELIMITING SPACES
+   + Formate as Line 1, L-R orientation, including only values 1 to 26, representing A-Z in the alphabet. The text `10 15 21` in the settings file corresponds to the ring setting letters `J O U`.
+   + These ring settings provide a base offset to the enigma's rotor wiring alignments (see [enigma rotors](https://en.wikipedia.org/wiki/Enigma_machine#Rotors)). 
++ *Line 3*: Specifies the initial window letters of the machine. **DO NOT** INCLUDE DELIMITING SPACES
+   + Specify 3 capital letters, without delimiting spaces, for example: `TRA`
++ *Line 3*: Specifies the reflector option. TYPE ONLY 'B' OR 'C' (without quotes) 
+   + There are only two options, in line with the original M3 machine (see [enigma reflector](https://en.wikipedia.org/wiki/Enigma_machine#Reflector))
 
 ## Frequently Asked Questions
 #### What is the enigma?
@@ -32,15 +52,15 @@ Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption de
    The class files are provided, so there is no need to compile.
    
 ## File Manifest
-+ README.md                     :: this file
-+ Enigma_Simulator              :: directory holding project files
++ [README.md]                     :: the readme file
++ [Enigma_Simulator]              :: directory holding project files
   + `Enigma$Machine.class`      :: machine object class
   + `Enigma$Rotor.class`        :: rotor object class
   + `Enigma.class`              :: holds main method and static machine object
-  + Enigma.java                 :: the java program itself
-  + Settings.txt                :: sample settings
-  + Settings2.txt               :: sample settings 2
-  + SampleText.txt              :: contains "Hello World"
+  + [Enigma.java]                 :: the java program itself
+  + [Settings.txt]                :: sample settings
+  + [Settings2.txt]               :: sample settings 2
+  + [SampleText.txt]              :: contains "Hello World"
 
 ## Licensing
 This project is licensed under the MIT license. For more detail, read the [LICENSE](https://github.com/stridebn/Enigma_Sim/blob/master/LICENSE) file.
