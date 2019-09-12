@@ -12,7 +12,7 @@
 + [Support](#support)
 
 # Welcome!
-This GitHub [repository](https://github.com/stridebn/Enigma_Sim) contains the source code for a Java Enigma Simulator, written by Brennan Stride, and documented with the help of Martin Hernandez-Gamez and Hunter Craig. To use the Simulator, download or clone the project (see [below](#frequently-asked-questions)).
+This GitHub [repository](https://github.com/stridebn/Enigma_Sim) contains the source code for a Java Enigma Simulator, written by Brennan Stride, and documented with the help of Martin Hernandez-Gamez and Hunter Craig. To use the Simulator, download or clone the project (see [below](#how-to-use-this)).
 
 ## Description Of Enigma_Sim 
 Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption device used primarily in World War II. The simulator is built to run with the terminal on a linux machine. It takes the input of a formatted .txt file (see [Formatting Settings.txt](#formatting-settings)) and outputs the encrypted or decrypted string, as given by another input file, or user input in the terminal.
