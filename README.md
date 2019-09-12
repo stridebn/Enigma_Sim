@@ -28,13 +28,13 @@ Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption de
 4. Run the executable (see [below](#executing))
 
 #### Executing
-1. Use the following command to execute the file `java Enigma Settings.txt`. It will wait for user input. Enter some text to encrypt, then press enter.    
+Use the following command to execute the file `java Enigma Settings.txt`. It will wait for user input. Enter some text to encrypt, then press enter.    
 ![](Images/UserInputExecution.PNG)
-   + To set up your own settings file, see [Formatting Settings](#formatting-settings)
-   + To specify an input file, such as the included SampleText.txt, include it as a second argument, `java Enigma Settings.txt SampleText.txt`    
++ To set up your own settings file, see [Formatting Settings](#formatting-settings)
++ To specify an input file, such as the included SampleText.txt, include it as a second argument, `java Enigma Settings.txt SampleText.txt`    
 ![](Images/FileInputExecution.PNG)
-   + The executable accepts any .txt file as a settings file, but it must be properly formatted or the program will fail. If no .txt files are included in the execution statement, the program will fail.
-   + To output to a text file, you can specify ` > out.txt` at the end of the execute statement, where out.txt could be any text file name (the statement will output a new file if the named one does not exist).     
++ The executable accepts any .txt file as a settings file, but it must be properly formatted or the program will fail. If no .txt files are included in the execution statement, the program will fail.
++ To output to a text file, you can specify ` > out.txt` at the end of the execute statement, where out.txt could be any text file name (the statement will output a new file if the named one does not exist).     
 ![](Images/OutputToFile.PNG)
 
 #### Formatting Settings
