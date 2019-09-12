@@ -40,15 +40,15 @@ Use the following command to execute the file `java Enigma Settings.txt`. It wil
 #### Formatting Settings
 There are two properly formatted settings files included in this program: [Settings.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Settings.txt) and [Settings2.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Settings2.txt). Include no additional whitespace except when explicitly mentioned below.
 + *Line 1*: Specifies the rotors in L-R orientation. INCLUDE DELIMITING SPACES
-   + There are 5 possible rotors, 1 - 5. The original enigma used a combination of 3 rotors, with no duplicates.
+   + There are 5 possible rotors, 1 - 5. The original Enigma used a combination of 3 rotors, with no duplicates.
    + To specify rotor pattern 1, 5, 3 for example, the first line would be `1 5 3`
 + *Line 2*: Specifies the ring settings of the 3 rotors within the machine. INCLUDE DELIMITING SPACES
    + Formate as Line 1, L-R orientation, including only values 1 to 26, representing A-Z in the alphabet. The text `10 15 21` in the settings file corresponds to the ring setting letters `J O U`.
-   + These ring settings provide a base offset to the enigma's rotor wiring alignments (see [enigma rotors](https://en.wikipedia.org/wiki/Enigma_machine#Rotors)). 
+   + These ring settings provide a base offset to the Enigma's rotor wiring alignments (see [Enigma rotors](https://en.wikipedia.org/wiki/Enigma_machine#Rotors)). 
 + *Line 3*: Specifies the initial window letters of the machine. **DO NOT** INCLUDE DELIMITING SPACES
    + Specify 3 capital letters, without delimiting spaces, for example: `TRA`
 + *Line 4*: Specifies the reflector option. TYPE ONLY 'B' OR 'C' (without quotes) 
-   + There are only two options, in line with the original M3 machine (see [enigma reflector](https://en.wikipedia.org/wiki/Enigma_machine#Reflector))
+   + There are only two options, in line with the original M3 machine (see [Enigma reflector](https://en.wikipedia.org/wiki/Enigma_machine#Reflector))
 + *Line 5*: Specifies plugboard pairs. INCLUDE DELIMITING SPACES BETWEEN EACH PAIR OF LETTERS
    + The program will accept only a list of 10 pairs of letters. If there are any duplicates, the program may produce bad output. 
    + An example line 5: `OS NT RH BU LI DF GA QP CK JY`
@@ -56,19 +56,19 @@ There are two properly formatted settings files included in this program: [Setti
 
 
 ## Frequently Asked Questions
-#### What is the enigma?
-   The [enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their  communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers. 
+#### What is the Enigma?
+   The [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their  communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers.      
 #### Why would I use this?
    Use this program if:
-   * You are interested in how the enigma functions and want to see it in action
+   * You are interested in how the Enigma functions and want to see it in action
    * You have an interest in cryptography
-   * You have an interest in WWII history
+   * You have an interest in WWII history    
 #### Can I copy this for academic purposes?
-   Absolutely! This project is licensed to be free to reproduce under the MIT license.
+   Absolutely! This project is licensed to be free to reproduce under the MIT license.    
 #### What programming language is this written in?
-   This project is written in entirely in java.
+   This project is written in entirely in java.     
 #### Will I need a java IDE to compile?
-   The class files are provided, so there is no need to compile.
+   The class files are provided, so there is no need to compile.      
    
 ## File Manifest
 + [README.md](https://github.com/stridebn/Enigma_Sim/blob/master/README.md) :: the readme file
