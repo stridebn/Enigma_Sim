@@ -57,18 +57,18 @@ There are two properly formatted settings files included in this program: [Setti
 
 ## Frequently Asked Questions
 #### What is the Enigma?
-   The [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their  communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers.      
+The [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their  communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers.      
 #### Why would I use this?
-   Use this program if:
-   * You are interested in how the Enigma functions and want to see it in action
-   * You have an interest in cryptography
-   * You have an interest in WWII history    
+Use this program if:
+* You are interested in how the Enigma functions and want to see it in action
+* You have an interest in cryptography
+* You have an interest in WWII history    
 #### Can I copy this for academic purposes?
-   Absolutely! This project is licensed to be free to reproduce under the MIT license.    
+Absolutely! This project is licensed to be free to reproduce under the MIT license.    
 #### What programming language is this written in?
-   This project is written in entirely in java.     
+This project is written in entirely in java.     
 #### Will I need a java IDE to compile?
-   The class files are provided, so there is no need to compile.      
+The class files are provided, so there is no need to compile.      
    
 ## File Manifest
 + [README.md](https://github.com/stridebn/Enigma_Sim/blob/master/README.md) :: the readme file
