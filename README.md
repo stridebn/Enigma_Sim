@@ -43,9 +43,12 @@ Download or clone the project. The class files are included, so compilation is u
 ## Licensing
 This project is licensed under the MIT license. For more detail, read the [LICENSE](https://github.com/stridebn/Enigma_Sim/blob/master/LICENSE) file.
 
-## How to Collaborate
+## Collaboration
 If you wish to collaborate, this github repository is the place to do it. Contact <stridebn@appstate.edu> with any questions about specifics.
 Some specific ideas for improvement:
 + GUI implementation
 + Executable (remove need for command line)
 + Write program for inputting settings (outputs correctly formatted text file)
+
+## Support
+Contact <hernandezgamezm@appstate.edu> with any technical support questions. (but *please* check the FAQ and instructions above first)
