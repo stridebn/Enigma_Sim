@@ -56,10 +56,10 @@ There are two properly formatted settings files included in this program: [Setti
 
 
 ## Frequently Asked Questions
-#### What is the Enigma?
+  #### What is the Enigma?
 The [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) was a machine used by Germany during the second world war to encrypt their  communications. This encryption changed daily and was considered impossible to be broken consistently by human codebreakers.  
 
-#### Why would I use this?
+  #### Why would I use this?
 Use this program if:
 * You are interested in how the Enigma functions and want to see it in action
 * You have an interest in cryptography
