@@ -70,15 +70,15 @@ There are two properly formatted settings files included in this program: [Setti
    The class files are provided, so there is no need to compile.
    
 ## File Manifest
-+ [README.md]                     :: the readme file
-+ [Enigma_Simulator]              :: directory holding project files
++ [README.md](https://github.com/stridebn/Enigma_Sim/blob/master/README.md) :: the readme file
++ [Enigma_Simulator](https://github.com/stridebn/Enigma_Sim/tree/master/Enigma_Simulator) :: directory holding project files
   + `Enigma$Machine.class`      :: machine object class
   + `Enigma$Rotor.class`        :: rotor object class
   + `Enigma.class`              :: holds main method and static machine object
-  + [Enigma.java]                 :: the java program itself
-  + [Settings.txt]                :: sample settings
-  + [Settings2.txt]               :: sample settings 2
-  + [SampleText.txt]              :: contains "Hello World"
+  + [Enigma.java](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Enigma.java) :: the java program itself
+  + [Settings.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Settings.txt) :: sample settings
+  + [Settings2.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/Settings2.txt) :: sample settings 2
+  + [SampleText.txt](https://github.com/stridebn/Enigma_Sim/blob/master/Enigma_Simulator/SampleText.txt) :: contains "Hello World"
 
 ## Licensing
 This project is licensed under the MIT license. For more detail, read the [LICENSE](https://github.com/stridebn/Enigma_Sim/blob/master/LICENSE) file.
