@@ -10,7 +10,7 @@ This GitHub repository contains the source code for a Java Enigma Simulator, wri
 Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption device used primarily in World War II. The simulator is built to run with the terminal on a linux machine. It takes the input of a formatted .txt file (see [Formatting Settings.txt](#formatting-settings)) and outputs the encrypted or decrypted string, as given by another input file, or user input in the terminal.
 
 ## How To Use This
-#### Installing
+### Installing and Running
 1. Clone or download this [repository](https://github.com/stridebn/Enigma_Sim)
    * *insert clone.png here*
 2. Open a terminal session (if an appstate student, use the student2 machine)
@@ -22,9 +22,10 @@ Enigma_Sim is a Java simulator for the Wehermacht Enigma, a German encryption de
    + To set up your own settings file, see [Formatting Settings](#formatting-settings)
    + To specify an input file, such as the included SampleText.txt, include it as a second argument, `java Enigma Settings.txt SampleText.txt`
    + The executable accepts any .txt file as a settings file, but it must be properly formatted or the program will fail. If no .txt files are included in the execution statement, the program will fail.
+   + To output to a text file, you can specify ` > out.txt` at the end of the execute statement, where out.txt could be any text file name (the statement will output a new file if the named one does not exist).
 
 #### Formatting Settings
-There are two properly formatted settings files included in this program: Settings.txt and Settings2.txt
+There are two properly formatted settings files included in this program: Settings.txt and Settings2.txt. Include no additional whitespace except when explicitly mentioned below.
 + *Line 1*: Specifies the rotors in L-R orientation. INCLUDE DELIMITING SPACES
    + There are 5 possible rotors, 1 - 5. The original enigma used a combination of 3 rotors, with no duplicates.
    + To specify rotor pattern 1, 5, 3 for example, the first line would be `1 5 3`
@@ -33,8 +34,13 @@ There are two properly formatted settings files included in this program: Settin
    + These ring settings provide a base offset to the enigma's rotor wiring alignments (see [enigma rotors](https://en.wikipedia.org/wiki/Enigma_machine#Rotors)). 
 + *Line 3*: Specifies the initial window letters of the machine. **DO NOT** INCLUDE DELIMITING SPACES
    + Specify 3 capital letters, without delimiting spaces, for example: `TRA`
-+ *Line 3*: Specifies the reflector option. TYPE ONLY 'B' OR 'C' (without quotes) 
++ *Line 4*: Specifies the reflector option. TYPE ONLY 'B' OR 'C' (without quotes) 
    + There are only two options, in line with the original M3 machine (see [enigma reflector](https://en.wikipedia.org/wiki/Enigma_machine#Reflector))
++ *Line 5*: Specifies plugboard pairs. INCLUDE DELIMITING SPACES BETWEEN EACH PAIR OF LETTERS
+   + The program will accept only a list of 10 pairs of letters. If there are any duplicates, the program may produce bad output. 
+   + An example line 5: `OS NT RH BU LI DF GA QP CK JY`
+   + For more information on the plugboard, see [here](https://en.wikipedia.org/wiki/Enigma_machine#Plugboard).
+
 
 ## Frequently Asked Questions
 #### What is the enigma?
