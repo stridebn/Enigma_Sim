@@ -1,7 +1,15 @@
 ### Index
-+ Welcome
-+ Description
-+ 
++ [Welcome](#welcome)
++ [Description](#description-of-enigma_sim)
++ [How To Use This](#how-to-use-this)
+  + [Installation and Running](#installation-and-running)
+    + [Executing](#executing)
+    + [Formatting Settings](#formatting-settings)
+  + [FAQ](#frequently-asked-questions)
+  + [File Manifest](#file-manifest)
+  + [Licensing](#licensing)
+  + [Collaboration](#collaboration)
+  + [Support](#support)
 
 # Welcome!
 This GitHub repository contains the source code for a Java Enigma Simulator, written by Brennan Stride, and documented with the help of Martin Hernandez-Gamez and Hunter Craig. To use the Simulator, download or clone the project (see [below](#frequently-asked-questions)).
