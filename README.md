@@ -34,7 +34,7 @@ Use the following command to execute the file `java Enigma Settings.txt`. It wil
 + To specify an input file, such as the included SampleText.txt, include it as a second argument, `java Enigma Settings.txt SampleText.txt`.    
 ![](Images/FileInputExecution.PNG)
 + The executable accepts any .txt file as a settings file, but it must be properly formatted or the program will fail. If no .txt files are included in the execution statement, the program will fail.
-+ To output to a text file, you can specify ` > out.txt` at the end of the execute statement, where out.txt could be any text file name (the statement will output a new file if the named one does not exist).     
++ To output to a text file, you can specify `> out.txt` at the end of the execute statement, where out.txt could be any text file name (the statement will output a new file if the named one does not exist).     
 ![](Images/OutputToFile.PNG)
 
 #### Formatting Settings
